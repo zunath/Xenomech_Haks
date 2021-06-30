@@ -1,0 +1,16 @@
+{
+  "TlkPath": "./xenomech.tlk",
+  "OutputPath": "./output/",
+  "HakList": [
+    {
+      "Name":  "xm_2da",
+      "Path": "./xm_2da/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_clothes",
+      "Path": "./xm_clothes/",
+      "CompileModels": false
+    }
+  ]
+}
