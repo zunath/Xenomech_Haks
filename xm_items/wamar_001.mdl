@@ -1,0 +1,211 @@
+# Exported from NWmax 0.5-beta at 1/11/2004 3:50:41 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: WAmAr_001
+filedependancy Unknown
+newmodel WAmAr_001
+setsupermodel WAmAr_001 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom WAmAr_001
+node dummy WAmAr_001
+  parent NULL
+endnode
+node trimesh g_WAmAr_001
+  parent WAmAr_001
+  position 0.000178909 0.0240612 -0.00234709
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+    tilefade 0
+    scale 1.0
+    render 1
+    Shadow 1
+    beaming 0
+    inheritcolor 0
+    selfillumcolor 0.0 0.0 0.0 
+    rotatetexture 0
+      alpha 1.0
+    transparencyhint 0
+    center 0.0 0.0 0.0 
+    gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+    bitmap NULL
+    verts 13
+     -0.0028401 0.119393 0.0412467
+     0.0177611 0.12124 0.0172101
+     -0.000311571 0.143614 0.0171628
+     -0.0028401 0.119393 -0.00682653
+     -0.0183842 0.12124 0.0172101
+     -0.00821968 0.121904 0.0273817
+     0.00947366 0.121904 0.0172075
+     -0.00821696 0.121904 0.00699375
+     -0.00821967 0.0880405 0.0273819
+     0.00947369 0.0880405 0.0172077
+     -0.00821695 0.0880405 0.00699398
+     -0.00164734 0.0261858 0.0172275
+     0.000379678 0.0261858 0.0192546
+    faces 14
+     0 1 2  1  0 1 2  2
+     1 3 2  1  3 4 5  2
+     2 4 0  2  5 6 0  1
+     2 3 4  2  5 4 6  1
+     3 1 4  4  4 3 6  3
+     0 4 1  4  0 6 1  3
+     5 6 7  1  7 8 9  2
+     6 8 9  2  10 11 12  3
+     6 5 8  2  10 7 11  3
+     5 10 8  2  7 13 11  3
+     5 7 10  2  7 9 13  3
+     7 9 10  2  9 14 13  3
+     7 6 9  2  9 8 14  3
+     8 10 9  1  11 13 14  1
+    tverts 21
+     0.152449 0.792185 0
+     0.191711 0.815186 0
+     0.230967 0.949076 0
+     0.0346634 0.815186 0
+     0.0739253 0.792185 0
+     0.073919 0.949076 0
+     0.113187 0.815186 0
+     0.403662 0.479186 0
+     0.290187 0.479186 0
+     0.355086 0.479186 0
+     0.46844 0.479186 0
+     0.403662 0.301111 0
+     0.468439 0.301111 0
+     0.355087 0.301111 0
+     0.290186 0.301111 0
+     0.49447 0.0121723 0
+     0.49447 0.133254 0
+     0.434021 0.189655 0
+     0.379222 0.0121723 0
+     0.379222 0.133254 0
+     0.439671 0.189655 0
+endnode
+node emitter OmenEmitter01
+  parent WAmAr_001
+  position -9.91058e-005 0.10471 0.0
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+     update_sel 1
+     update Fountain
+     render_sel 2
+     render Linked
+     blend_sel 1
+     Blend Normal
+     spawnType 1
+     iconSize 100.0
+     xSize 0.0
+     ySize 0.0
+     inherit 0
+     inherit_local 0
+     inheritvel 0
+     inherit_part 0
+     renderorder 0
+     threshold 0.0
+     combinetime 0.0
+     deadspace 0.0
+     colorStart 0.882353 0.941177 1.0 
+     colorEnd 0.764706 0.878431 0.988235 
+     alphaStart 0.6
+     alphaEnd 0.0
+     sizeStart 0.02
+     sizeEnd 0.01
+     sizeStart_y 0.0
+     sizeEnd_y 0.0
+     birthrate 4.0
+     lifeExp 0.18
+     mass 0.0
+     spread 0.0
+     particleRot 0.0
+     velocity 0.0
+     randvel 0.0
+     bounce_co 0.0
+     blurlength 10.0
+     loop 0
+     bounce 0
+     m_isTinted 1
+     Splat 0
+     affectedbyWind false
+     texture fxpa_white
+     twosidedtext 0
+     xgrid 1
+     ygrid 1
+     fps 0
+     frameStart 0
+     frameEnd 0
+     random 0
+     #chunk undefined
+     lightningDelay 0.0
+     lightningRadius 0.0
+     lightningSubDivkey 0
+     lightningScale 0.0
+     blastRadius 0.0
+     blastLength 0.0
+     opacity 0.0
+     p2p 0
+     p2p_type Bezier
+     p2p_sel 1
+     p2p_bezier2 0.0
+     p2p_bezier3 0.0
+     grav 0.0
+     drag 0.0
+     Cone_Angle_Manipulator SubAnim:Cone_Angle_Manipulator
+endnode
+endmodelgeom WAmAr_001
+#NWmaxANIM ASCII
+newanim travel01 WAmAr_001
+    length 0.966667
+    transtime 0.0
+    animroot WAmAr_001
+    node dummy WAmAr_001
+        parent NULL
+    endnode
+    node trimesh g_WAmAr_001
+        parent WAmAr_001
+    endnode
+    node emitter OmenEmitter01
+        parent WAmAr_001
+        birthratekey
+            0.0 4.0 
+            0.866667 4.0 
+            0.9 4.0 
+            0.933333 4.0 
+            0.966667 4.0 
+        endlist
+        fpskey
+            0.933333 0 
+            0.966667 0 
+        endlist
+    endnode
+doneanim travel01 WAmAr_001
+#NWmaxANIM ASCII
+newanim impact01 WAmAr_001
+    length 0.966667
+    transtime 0.0
+    animroot WAmAr_001
+    node dummy WAmAr_001
+        parent NULL
+    endnode
+    node trimesh g_WAmAr_001
+        parent WAmAr_001
+    endnode
+    node emitter OmenEmitter01
+        parent WAmAr_001
+        birthratekey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+        velocitykey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+doneanim impact01 WAmAr_001
+donemodel WAmAr_001

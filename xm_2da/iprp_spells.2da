@@ -196,8 +196,8 @@
 192        Ghostly_Visage                   1296    3           2           4500     120          1           1         1            iss_ghostvis       
 193        Ghostly_Visage                   1297    9           2           13500    120          1           1         1            iss_ghostvis       
 194        Ghostly_Visage                   1298    15          2           22500    120          1           1         1            iss_ghostvis       
-195        Ethereal_Visage                  1299    9           5           33750    121          1           0         1            iss_EthVis        
-196        Ethereal_Visage                  1300    15          5           56250    121          1           0         1            iss_EthVis        
+195        Ethereal_Visage                  1299    9           5           33750    121          1           0         1            iss_Mislead        
+196        Ethereal_Visage                  1300    15          5           56250    121          1           0         1            iss_Mislead        
 197        Mordenkainens_Disjunction        1301    17          9           114750   122          1           0         1            iss_MordDisj       
 198        Mordenkainens_Sword              1302    13          7           68250    123          0           0         1            iss_MordSwrd       
 199        Mordenkainens_Sword              1303    18          7           94500    123          0           0         1            iss_MordSwrd       
@@ -541,4 +541,9 @@
 537        ACTIVATE_ITEM_T                  86781   1           1           1        795          1           1         1            iss_ActItem01      
 538        Ball_Lightning                   100979  20          5           50000    516          0           1         1            iss_X2BallLghtng   
 539        Scintillating_Sphere             100978  20          3           11250    526          0           1         1            iss_X2ScntSphere   
-
+540        Bazooka                        16777497  1           3           911250    1506         0           1         1            iss_Rocket      
+541        Bomb                           16777498  1           9           914750    1507         0           1         1            iss_Rocket      
+542        Missile_Attack                 16777499  1           1           993750    1508         0           1         1            iss_MagMiss       
+543        Hellfire_1                     16777500  1           3           911250    1509         0           1         1            iss_Rocket      
+544        Hellfire_2                     16777501  1           3           911250    1510         0           1         1            iss_Rocket      
+545        Flight                         16777502  3           3           3750      1511         0           1         1            iss_Rocket     

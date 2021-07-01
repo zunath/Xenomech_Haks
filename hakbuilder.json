@@ -21,6 +21,16 @@
       "Name":  "xm_loadscreens",
       "Path": "./xm_loadscreens/",
       "CompileModels": false
-    }
+    },
+    {
+      "Name":  "xm_items",
+      "Path": "./xm_items/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_creatures",
+      "Path": "./xm_creatures/",
+      "CompileModels": false
+    },
   ]
 }

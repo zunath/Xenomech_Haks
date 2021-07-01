@@ -1,0 +1,10 @@
+D20mm 2.2 Item hak Credits
+Earlier contributions from 1.3 and 1.4 from the original D20 Modern team.
+In addition to these:
+10/09 Jezira's, Prole's and Xialya's ranged weapons plus introduction of SMG weapon type. Additional item models & icons by Jezira, Xialya, & Vanya Mia. Included additional palette locations, coins & drugs, new starting clothing.
+07/10 Taina & JKA Lightsabers, Jezira Star Wars weapons, Xialya 40K weapons, Vanya Mia model matching icons. Updated item palette, plus trap, default item bag and ammunition models.
+11/15 Adjusted GUI Forestwolf. Additional improvised weapon models by Shemsu-Heru, and Aenea.
+05/17 Flintlock and harpoon weapon models by Shemsu-Heru, and 40K style 'book on a stick' by The Barbarian.
+10/17 Farm tools by Zwerkule and Den of Assassins. Extended inventory GUI images and compass by Forestwolf.
+05/18 40k Melee weapons by Xialya. Dark Sun weapons plus Predator weapons and holdables by Shemsu Heru.
+
