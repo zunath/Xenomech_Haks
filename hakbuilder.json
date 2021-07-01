@@ -32,5 +32,10 @@
       "Path": "./xm_creatures/",
       "CompileModels": false
     },
+    {
+      "Name":  "xm_gears",
+      "Path": "./xm_gears/",
+      "CompileModels": false
+    },
   ]
 }
