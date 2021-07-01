@@ -37,5 +37,10 @@
       "Path": "./xm_gears/",
       "CompileModels": false
     },
+    {
+      "Name":  "xm_categories",
+      "Path": "./xm_categories/",
+      "CompileModels": false
+    },
   ]
 }
