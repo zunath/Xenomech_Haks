@@ -11,6 +11,11 @@
       "Name":  "xm_clothes",
       "Path": "./xm_clothes/",
       "CompileModels": false
+    },
+    {
+      "Name":  "xm_portraits",
+      "Path": "./xm_portraits/",
+      "CompileModels": false
     }
   ]
 }
