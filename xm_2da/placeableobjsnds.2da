@@ -52,3 +52,4 @@
 48  Force_Field_Door         Ethereal   sdr_spellturn     sim_shwngelec01   scm_hitelec     ****              scm_hitelec       
 49  TNO_Drawbridge           wood       tns_draw_down     tns_draw_up       cb_bu_woodlrg   ****              as_dr_locked1     
 50  wood_on_destroy_only     wood       ****              ****              cb_bu_woodlrg   ****              as_sw_genericlk1
+51  sfb_door                 plate      dr_sfbop          dr_sfbcl          cb_bu_metallrg  ****              as_dr_locked3     

@@ -1,0 +1,157 @@
+# Exported from NWmax 0.8 b61 at 7/12/2020 2:50:18 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: sfb_trans_01
+#local file: Unknown
+filedependancy Unknown
+newmodel sfb_trans_01
+setsupermodel sfb_trans_01 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom sfb_trans_01
+node dummy sfb_trans_01
+  parent NULL
+endnode
+node dummy sfb_trans_01grnd
+  parent sfb_trans_01
+  position -0.0753452 0.0277557 -1.02309
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.694118 0.101961 0.345098 
+endnode
+node dummy sfb_trans_01impc
+  parent sfb_trans_01
+  position -0.0753452 0.0277557 0.214955
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.694118 0.101961 0.345098 
+endnode
+node dummy sfb_trans_01hhit
+  parent sfb_trans_01
+  position -0.0753452 0.0277557 1.74013
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.694118 0.101961 0.345098 
+endnode
+node dummy sfb_trans_01head
+  parent sfb_trans_01
+  position -0.0753452 0.0277557 2.52753
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.694118 0.101961 0.345098 
+endnode
+node trimesh sam
+  parent sfb_trans_01
+  position 0.310518 0.527197 -1.13939
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.980392 0.831373 
+  ambient 1.0 1.0 1.0 
+  diffuse 0.0 0.992157 0.839216 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center -52.5806 31.052 254.469 
+  bitmap NULL
+  verts 8
+    -0.556051 2.31052 0.0
+    -0.556046 -1.68948 0.0
+    -0.556046 -1.68948 5.08939
+    -0.556051 2.31052 5.08939
+    -0.49556 -1.68948 0.0
+    -0.495565 2.31052 0.0
+    -0.49556 -1.68948 5.08939
+    -0.495565 2.31052 5.08939
+  faces 4
+    0 1 2  1  0 0 0  3
+    2 3 0  1  0 0 0  3
+    4 5 6  1  0 0 0  3
+    7 6 5  1  0 0 0  3
+endnode
+endmodelgeom sfb_trans_01
+#NWmax ANIM ASCII
+newanim trans sfb_trans_01
+  length 0.0333333
+  transtime 0.25
+  animroot sfb_trans_01
+    node dummy sfb_trans_01
+        parent NULL
+    endnode
+    node dummy sfb_trans_01grnd
+        parent sfb_trans_01
+    endnode
+    node dummy sfb_trans_01impc
+        parent sfb_trans_01
+    endnode
+    node dummy sfb_trans_01hhit
+        parent sfb_trans_01
+    endnode
+    node dummy sfb_trans_01head
+        parent sfb_trans_01
+    endnode
+    node trimesh sam
+        parent sfb_trans_01
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy sfb_trans_01_DWK
+        parent sfb_trans_01
+    endnode
+    node dummy 01_DWK_dp_closed_01
+        parent sfb_trans_01_DWK
+    endnode
+    node dummy 01_DWK_dp_closed_02
+        parent sfb_trans_01_DWK
+    endnode
+    node trimesh 01_DWK_wg_closed01
+        parent sfb_trans_01_DWK
+    endnode
+doneanim trans sfb_trans_01
+#NWmax ANIM ASCII
+newanim default sfb_trans_01
+  length 0.0333333
+  transtime 0.25
+  animroot sfb_trans_01
+    node dummy sfb_trans_01
+        parent NULL
+    endnode
+    node dummy sfb_trans_01grnd
+        parent sfb_trans_01
+    endnode
+    node dummy sfb_trans_01impc
+        parent sfb_trans_01
+    endnode
+    node dummy sfb_trans_01hhit
+        parent sfb_trans_01
+    endnode
+    node dummy sfb_trans_01head
+        parent sfb_trans_01
+    endnode
+    node trimesh sam
+        parent sfb_trans_01
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy sfb_trans_01_DWK
+        parent sfb_trans_01
+    endnode
+    node dummy 01_DWK_dp_closed_01
+        parent sfb_trans_01_DWK
+    endnode
+    node dummy 01_DWK_dp_closed_02
+        parent sfb_trans_01_DWK
+    endnode
+    node trimesh 01_DWK_wg_closed01
+        parent sfb_trans_01_DWK
+    endnode
+doneanim default sfb_trans_01
+donemodel sfb_trans_01

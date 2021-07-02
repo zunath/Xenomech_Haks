@@ -1,0 +1,1182 @@
+# Exported from NWmax 0.8 b61 at 7/27/2020 10:28:33 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: sfb_door03
+#local file: Unknown
+filedependancy Unknown
+newmodel sfb_door03
+setsupermodel sfb_door03 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom sfb_door03
+node dummy sfb_door03
+  parent NULL
+endnode
+node trimesh SAM
+  parent sfb_door03
+  position 0.0 0.0 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0 0.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap Standardmaterial
+  verts 8
+    -1.0 0.0 -1.5
+    1.0 0.0 -1.5
+    -1.0 0.0 1.5
+    1.0 0.0 1.5
+    -1.0 0.0 -1.5
+    1.0 0.0 -1.5
+    -1.0 0.0 1.5
+    1.0 0.0 1.5
+  faces 4
+    2 0 3  1  6 4 7  1
+    1 3 0  1  5 7 4  1
+    4 6 7  1  12 14 15  1
+    7 5 4  1  15 13 12  1
+  tverts 16
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+endnode
+node dummy sfb_door03grnd
+  parent sfb_door03
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.580392 0.694118 0.101961 
+endnode
+node dummy sfb_door03impc
+  parent sfb_door03
+  position 0.0 0.0 1.75
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.580392 0.694118 0.101961 
+endnode
+node dummy sfb_door03hhit
+  parent sfb_door03
+  position 0.0 0.0 2.25
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.580392 0.694118 0.101961 
+endnode
+node dummy sfb_door03head
+  parent sfb_door03
+  position 0.0 0.0 2.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.580392 0.694118 0.101961 
+endnode
+node emitter door_explosion
+  parent sfb_door03
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node dummy base
+  parent sfb_door03
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.65098 0.898039 0.898039 
+endnode
+node dummy Dummy01
+  parent base
+  position -1.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.65098 0.898039 0.898039 
+endnode
+node trimesh box01
+  parent Dummy01
+  position 0.5 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.776471 0.341176 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  center undefined
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap sfb_door03
+  verts 8
+    0.5 -0.05 0.0
+    -0.5 -0.05 0.0
+    0.5 0.05 0.0
+    -0.5 0.05 0.0
+    0.5 -0.05 3.0
+    -0.5 -0.05 3.0
+    0.5 0.05 3.0
+    -0.5 0.05 3.0
+  faces 12
+    2 0 3  2  19 18 20  2
+    1 3 0  2  22 21 23  2
+    5 4 7  4  25 24 26  1
+    6 7 4  4  28 27 29  1
+    1 0 5  8  3 2 4  5
+    4 5 0  8  6 5 7  5
+    3 1 7  16  31 30 32  4
+    5 7 1  16  16 33 13  4
+    2 3 6  32  9 8 10  6
+    7 6 3  32  1 11 0  6
+    0 2 4  64  12 34 35  3
+    6 4 2  64  17 15 14  3
+  tverts 36
+    0.000558314 0.0 0
+    0.000558314 1.0 0
+    0.666667 0.0 0
+    0.0 0.0 0
+    0.0 1.0 0
+    0.0 1.0 0
+    0.666667 1.0 0
+    0.666667 0.0 0
+    0.000558314 0.0 0
+    0.667225 0.0 0
+    0.667225 1.0 0
+    0.667225 1.0 0
+    0.991178 0.0 0
+    0.87761 0.0 0
+    0.87761 0.0 0
+    0.991178 1.0 0
+    0.87761 1.0 0
+    0.87761 1.0 0
+    0.991178 0.759712 0
+    0.87761 0.759712 0
+    0.87761 0.290965 0
+    0.87761 0.290965 0
+    0.991178 0.290965 0
+    0.991178 0.759712 0
+    0.991178 0.290539 0
+    0.991178 0.759286 0
+    0.87761 0.759286 0
+    0.87761 0.759286 0
+    0.87761 0.290539 0
+    0.991178 0.290539 0
+    0.87761 0.0 0
+    0.991178 0.0 0
+    0.991178 1.0 0
+    0.991178 1.0 0
+    0.87761 0.0 0
+    0.991178 1.0 0
+endnode
+node dummy Dummy02
+  parent base
+  position 1.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.568627 0.109804 0.694118 
+endnode
+node trimesh box02
+  parent Dummy02
+  position -0.5 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.776471 0.341176 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  center undefined
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap sfb_door03
+  verts 8
+    -0.5 -0.05 0.0
+    0.5 -0.05 0.0
+    -0.5 0.05 0.0
+    0.5 0.05 0.0
+    -0.5 -0.05 3.0
+    0.5 -0.05 3.0
+    -0.5 0.05 3.0
+    0.5 0.05 3.0
+  faces 12
+    0 2 3  2  18 19 20  2
+    3 1 0  2  21 22 23  2
+    4 5 7  4  24 25 26  1
+    7 6 4  4  27 28 29  1
+    0 1 5  8  2 3 4  5
+    5 4 0  8  5 6 7  5
+    1 3 7  16  30 31 32  4
+    7 5 1  16  33 16 13  4
+    3 2 6  32  8 9 10  6
+    6 7 3  32  11 1 0  6
+    2 0 4  64  34 12 35  3
+    4 6 2  64  15 17 14  3
+  tverts 36
+    0.000558314 0.0 0
+    0.000558314 1.0 0
+    0.666667 0.0 0
+    0.0 0.0 0
+    0.0 1.0 0
+    0.0 1.0 0
+    0.666667 1.0 0
+    0.666667 0.0 0
+    0.000558314 0.0 0
+    0.667225 0.0 0
+    0.667225 1.0 0
+    0.667225 1.0 0
+    0.991178 0.0 0
+    0.87761 0.0 0
+    0.87761 0.0 0
+    0.991178 1.0 0
+    0.87761 1.0 0
+    0.87761 1.0 0
+    0.991178 0.759712 0
+    0.87761 0.759712 0
+    0.87761 0.290965 0
+    0.87761 0.290965 0
+    0.991178 0.290965 0
+    0.991178 0.759712 0
+    0.991178 0.290539 0
+    0.991178 0.759286 0
+    0.87761 0.759286 0
+    0.87761 0.759286 0
+    0.87761 0.290539 0
+    0.991178 0.290539 0
+    0.87761 0.0 0
+    0.991178 0.0 0
+    0.991178 1.0 0
+    0.991178 1.0 0
+    0.87761 0.0 0
+    0.991178 1.0 0
+endnode
+endmodelgeom sfb_door03
+#NWmax ANIM ASCII
+newanim trans sfb_door03
+  length 0.0333333
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim trans sfb_door03
+#NWmax ANIM ASCII
+newanim closed sfb_door03
+  length 0.0333333
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+        positionkey
+            0.0 0.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.0333333 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.0 0.0 0.0
+            0.0333333 1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim closed sfb_door03
+#NWmax ANIM ASCII
+newanim opening1 sfb_door03
+  length 2.0
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+            2.0 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.333333 -1.0 0.0 0.0
+            0.666667 -1.3 0.0 0.0
+            2.0 -1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.0 0.0 0.0
+            0.333333 1.0 0.0 0.0
+            0.666667 1.3 0.0 0.0
+            2.0 1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim opening1 sfb_door03
+#NWmax ANIM ASCII
+newanim opening2 sfb_door03
+  length 2.0
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+            2.0 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.0 0.0 0.0
+            0.333333 -1.0 0.0 0.0
+            0.666667 -1.3 0.0 0.0
+            2.0 -1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.0 0.0 0.0
+            0.333333 1.0 0.0 0.0
+            0.666667 1.3 0.0 0.0
+            2.0 1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+            2.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim opening2 sfb_door03
+#NWmax ANIM ASCII
+newanim opened1 sfb_door03
+  length 0.0
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim opened1 sfb_door03
+#NWmax ANIM ASCII
+newanim opened2 sfb_door03
+  length 0.0
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.95 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim opened2 sfb_door03
+#NWmax ANIM ASCII
+newanim closing1 sfb_door03
+  length 1.66667
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+            1.66667 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.95 0.0 0.0
+            0.833333 -1.15 0.0 0.0
+            1.33333 -1.0 0.0 0.0
+            1.66667 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.66667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.95 0.0 0.0
+            1.0 1.15 0.0 0.0
+            1.33333 1.0 0.0 0.0
+            1.66667 1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.66667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim closing1 sfb_door03
+#NWmax ANIM ASCII
+newanim closing2 sfb_door03
+  length 1.66667
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+            1.66667 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+    endnode
+    node dummy Dummy01
+        parent base
+        positionkey
+            0.0 -1.95 0.0 0.0
+            0.833333 -1.15 0.0 0.0
+            1.33333 -1.0 0.0 0.0
+            1.66667 -1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.66667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+        positionkey
+            0.0 1.95 0.0 0.0
+            1.0 1.15 0.0 0.0
+            1.33333 1.0 0.0 0.0
+            1.66667 1.0 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            1.66667 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim closing2 sfb_door03
+#NWmax ANIM ASCII
+newanim die sfb_door03
+  length 0.333333
+  transtime 0.25
+  animroot sfb_door03
+  event 0.0 detonate
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+            0.333333 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+        positionkey
+            0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 -5.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.333333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy Dummy01
+        parent base
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim die sfb_door03
+#NWmax ANIM ASCII
+newanim dead sfb_door03
+  length 0.0
+  transtime 0.25
+  animroot sfb_door03
+    node dummy sfb_door03
+        parent NULL
+    endnode
+    node trimesh SAM
+        parent sfb_door03
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node dummy sfb_door03grnd
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03impc
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03hhit
+        parent sfb_door03
+    endnode
+    node dummy sfb_door03head
+        parent sfb_door03
+    endnode
+    node emitter door_explosion
+        parent sfb_door03
+    endnode
+    node dummy base
+        parent sfb_door03
+        positionkey
+            0.0 0.0 0.0 -5.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node dummy Dummy01
+        parent base
+    endnode
+    node trimesh box01
+        parent Dummy01
+    endnode
+    node dummy Dummy02
+        parent base
+    endnode
+    node trimesh box02
+        parent Dummy02
+    endnode
+    node dummy sfb_door03_DWK
+        parent sfb_door03
+    endnode
+    node trimesh 03_DWK_wg_closed
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open1_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_open2_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_01
+        parent sfb_door03_DWK
+    endnode
+    node dummy 03_DWK_dp_closed_02
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open1
+        parent sfb_door03_DWK
+    endnode
+    node trimesh 03_DWK_wg_open2
+        parent sfb_door03_DWK
+    endnode
+doneanim dead sfb_door03
+donemodel sfb_door03

@@ -8,23 +8,13 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_categories",
+      "Path": "./xm_categories/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_clothes",
       "Path": "./xm_clothes/",
-      "CompileModels": false
-    },
-    {
-      "Name":  "xm_portraits",
-      "Path": "./xm_portraits/",
-      "CompileModels": false
-    },
-    {
-      "Name":  "xm_loadscreens",
-      "Path": "./xm_loadscreens/",
-      "CompileModels": false
-    },
-    {
-      "Name":  "xm_items",
-      "Path": "./xm_items/",
       "CompileModels": false
     },
     {
@@ -33,13 +23,43 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_fonts",
+      "Path": "./xm_fonts/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_gears",
       "Path": "./xm_gears/",
       "CompileModels": false
     },
     {
-      "Name":  "xm_categories",
-      "Path": "./xm_categories/",
+      "Name":  "xm_gui",
+      "Path": "./xm_gui/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_items",
+      "Path": "./xm_items/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_loadscreens",
+      "Path": "./xm_loadscreens/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_portraits",
+      "Path": "./xm_portraits/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_ts_scifibase",
+      "Path": "./xm_ts_scifibase/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_visualeffects",
+      "Path": "./xm_visualeffects/",
       "CompileModels": false
     },
   ]

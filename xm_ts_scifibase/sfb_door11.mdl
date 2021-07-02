@@ -1,0 +1,2096 @@
+# Exported from NWmax 0.8 b61 at 7/12/2020 9:51:58 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: sfb_door11
+#local file: Unknown
+filedependancy Unknown
+newmodel sfb_door11
+setsupermodel sfb_door11 NULL
+classification Door
+#NWmax GEOM  ASCII
+beginmodelgeom sfb_door11
+node dummy sfb_door11
+  parent NULL
+endnode
+node trimesh sam
+  parent sfb_door11
+  position -1.0 -0.00873779 0.0
+  orientation 0.0 0.0 -1.0 -1.5708
+  wirecolor 0.721569 0.894118 0.6 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 1
+  selfillumcolor 0.0705882 0.0 1.0 
+  ambient 1.0 1.0 1.0 
+  diffuse 0.0 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 0
+  center 0.962135 -100.623 148.5 
+  bitmap NULL
+  verts 8
+    0.03447 -0.0062291 -1.83105e-006
+    0.03447 -2.00623 -1.83105e-006
+    0.03447 -2.00623 2.97
+    0.03447 -0.0062291 2.97
+    -0.0152273 -0.0062291 -1.83105e-006
+    -0.0152273 -2.00623 -1.83105e-006
+    -0.0152273 -2.00623 2.97
+    -0.0152273 -0.0062291 2.97
+  faces 4
+    0 1 2  64  0 1 2  18
+    2 3 0  64  2 3 0  18
+    5 4 6  64  5 4 6  18
+    7 6 4  64  7 6 4  18
+  tverts 12
+    0.000499517 0.000499666 0
+    0.49427 0.000499547 0
+    0.494271 0.876312 0
+    0.000499815 0.876312 0
+    0.000499517 0.000499666 0
+    0.49427 0.000499547 0
+    0.494271 0.876312 0
+    0.000499815 0.876312 0
+    0.000499517 0.000499666 0
+    0.49427 0.000499547 0
+    0.494271 0.876312 0
+    0.000499815 0.876312 0
+endnode
+node trimesh Box01
+  parent sfb_door11
+  position 0.0 0.0 -0.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.25
+  transparencyhint 0
+  selfillumcolor 0.0 0.960784 0.882353 
+  ambient 1.0 1.0 1.0 
+  diffuse 0.0117647 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -1.0 200.0 
+  bitmap NULL
+  verts 8
+    -1.5 -0.01 0.0
+    1.5 -0.01 0.0
+    -1.5 -0.01 0.0
+    1.5 -0.01 0.0
+    -1.5 -0.01 4.0
+    1.5 -0.01 4.0
+    -1.5 -0.01 4.0
+    1.5 -0.01 4.0
+  faces 4
+    0 1 5  8  0 0 0  5
+    5 4 0  8  0 0 0  5
+    3 2 6  32  0 0 0  6
+    6 7 3  32  0 0 0  6
+endnode
+node emitter ground_lightning
+  parent sfb_door11
+  position 0.0 0.0 1.5
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.11
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 3.0
+  sizeEnd 3.0
+  sizeStart_y 1.0
+  sizeEnd_y 1.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fx_field01
+  twosidedtex 0
+  xgrid 1
+  ygrid 8
+  fps 24
+  framestart 0
+  frameend 7
+  random 0
+  lightningDelay 0.1
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node reference OmenRef01
+  parent ground_lightning
+  position -0.00197409 -0.00623735 0.01686
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 0.694118 0.580392 0.101961 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node dummy sfb_door11head
+  parent sfb_door11
+  position 0.0 0.0 2.50064
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy sfb_door11hhit
+  parent sfb_door11
+  position 0.0 0.0 2.17507
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy sfb_door11impc
+  parent sfb_door11
+  position 0.0 0.0 1.63648
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node dummy sfb_door11grnd
+  parent sfb_door11
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.603922 0.898039 
+endnode
+node emitter ground_lightning01
+  parent sfb_door11
+  position 0.0 0.0 2.5
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.11
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 3.0
+  sizeEnd 3.0
+  sizeStart_y 1.0
+  sizeEnd_y 1.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fx_field01
+  twosidedtex 0
+  xgrid 1
+  ygrid 8
+  fps 24
+  framestart 0
+  frameend 7
+  random 0
+  lightningDelay 0.1
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node reference OmenRef02
+  parent ground_lightning01
+  position -0.00197409 -0.00623735 0.01686
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 0.552941 0.027451 0.227451 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node emitter ground_lightning02
+  parent sfb_door11
+  position 0.0 0.0 0.5
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.11
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 3.0
+  sizeEnd 3.0
+  sizeStart_y 1.0
+  sizeEnd_y 1.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fx_field01
+  twosidedtex 0
+  xgrid 1
+  ygrid 8
+  fps 24
+  framestart 0
+  frameend 7
+  random 0
+  lightningDelay 0.1
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node reference OmenRef03
+  parent ground_lightning02
+  position -0.00197409 -0.00623735 0.01686
+  orientation 0.0 0.0 1.0 -1.5708
+  wirecolor 0.223529 0.0313726 0.533333 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node emitter ground_lightning03
+  parent sfb_door11
+  position -0.00197407 0.000193367 1.5
+  orientation 0.0 0.707106 0.707107 -3.14159
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.11
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 3.0
+  sizeEnd 3.0
+  sizeStart_y 1.0
+  sizeEnd_y 1.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fx_field01
+  twosidedtex 0
+  xgrid 1
+  ygrid 8
+  fps 24
+  framestart 0
+  frameend 7
+  random 0
+  lightningDelay 0.1
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node reference OmenRef04
+  parent ground_lightning03
+  position -0.00197409 -0.00623735 0.01686
+  orientation 0.0 0.0 -1.0 -4.71239
+  wirecolor 0.694118 0.580392 0.101961 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node emitter ground_lightning04
+  parent sfb_door11
+  position -0.00197407 0.000193367 2.5
+  orientation 0.0 0.707106 0.707107 -3.14159
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.11
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 3.0
+  sizeEnd 3.0
+  sizeStart_y 1.0
+  sizeEnd_y 1.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fx_field01
+  twosidedtex 0
+  xgrid 1
+  ygrid 8
+  fps 24
+  framestart 0
+  frameend 7
+  random 0
+  lightningDelay 0.1
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node reference OmenRef05
+  parent ground_lightning04
+  position -0.00197409 -0.00623735 0.01686
+  orientation 0.0 0.0 -1.0 -4.71239
+  wirecolor 0.552941 0.027451 0.227451 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node emitter ground_lightning05
+  parent sfb_door11
+  position -0.00197407 0.000193367 0.5
+  orientation 0.0 0.707106 0.707107 -3.14159
+  wirecolor 0.337255 0.337255 0.882353 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.11
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 3.0
+  sizeEnd 3.0
+  sizeStart_y 1.0
+  sizeEnd_y 1.0
+  birthrate 0
+  lifeExp 1.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fx_field01
+  twosidedtex 0
+  xgrid 1
+  ygrid 8
+  fps 24
+  framestart 0
+  frameend 7
+  random 0
+  lightningDelay 0.1
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 1
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  drag 0.0
+endnode
+node reference OmenRef06
+  parent ground_lightning05
+  position -0.00197409 -0.00623735 0.01686
+  orientation 0.0 0.0 -1.0 -4.71239
+  wirecolor 0.223529 0.0313726 0.533333 
+  refModel fx_ref
+  reattachable 0
+  Dummy Dummy
+endnode
+node trimesh Box02
+  parent sfb_door11
+  position 0.0 0.0 -0.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.960784 0.882353 
+  ambient 1.0 1.0 1.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap sfb01_grid01
+  verts 8
+    -1.5 -0.01 0.0
+    1.5 -0.01 0.0
+    -1.5 -0.01 0.0
+    1.5 -0.01 0.0
+    -1.5 -0.01 4.0
+    1.5 -0.01 4.0
+    -1.5 -0.01 4.0
+    1.5 -0.01 4.0
+  faces 4
+    0 1 5  8  8 1 9  5
+    5 4 0  8  5 4 0  5
+    3 2 6  32  10 2 11  6
+    6 7 3  32  6 7 3  6
+  tverts 12
+    -0.406255 -0.451837 0
+    1.40626 -0.451837 0
+    1.40626 -0.451837 0
+    -0.406255 -0.451837 0
+    -0.406255 1.45184 0
+    1.40626 1.45184 0
+    1.40626 1.45184 0
+    -0.406255 1.45184 0
+    -0.406255 -0.451837 0
+    1.40626 1.45184 0
+    -0.406255 -0.451837 0
+    1.40626 1.45184 0
+endnode
+endmodelgeom sfb_door11
+#NWmax ANIM ASCII
+newanim default sfb_door11
+  length 0.666667
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+        alphakey
+            0.0 0.25 
+            0.666667 0.25 
+        endlist
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+doneanim default sfb_door11
+#NWmax ANIM ASCII
+newanim opening1 sfb_door11
+  length 0.0333333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+    endnode
+doneanim opening1 sfb_door11
+#NWmax ANIM ASCII
+newanim closing1 sfb_door11
+  length 0.233333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.233333 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+    endnode
+doneanim closing1 sfb_door11
+#NWmax ANIM ASCII
+newanim opening2 sfb_door11
+  length 0.0333333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+    endnode
+doneanim opening2 sfb_door11
+#NWmax ANIM ASCII
+newanim closing2 sfb_door11
+  length 0.233333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.233333 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.233333 5 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+    endnode
+doneanim closing2 sfb_door11
+#NWmax ANIM ASCII
+newanim closed sfb_door11
+  length 0.666667
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+        alphakey
+            0.0 0.25 
+            0.666667 0.25 
+        endlist
+		positionkey
+		    0.0 0.0 0.0 -0.5
+			0.666667 0.0 0.0 -0.5
+		endlist
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+		positionkey
+		    0.0 0.0 0.0 -0.5
+			0.666667 0.0 0.0 -0.5
+		endlist
+    endnode
+doneanim closed sfb_door11
+#NWmax ANIM ASCII
+newanim opened2 sfb_door11
+  length 0.0333333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+		positionkey
+		    0.0 0.0 0.0 -2.8
+			0.0333333 0.0 0.0 -2.8
+		endlist
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+        alphakey
+            0.0 -0.25 
+            0.0333333 -0.25 
+        endlist
+		positionkey
+		    0.0 0.0 0.0 -6.5
+			0.0333333 0.0 0.0 -6.5
+		endlist
+    endnode
+doneanim opened2 sfb_door11
+#NWmax ANIM ASCII
+newanim opened1 sfb_door11
+  length 0.0333333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+		positionkey
+		    0.0 0.0 0.0 -2.8
+			0.0333333 0.0 0.0 -2.8
+		endlist
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+        alphakey
+            0.0 -0.25 
+            0.0333333 -0.25 
+        endlist
+		positionkey
+		    0.0 0.0 0.0 -6.5
+			0.0333333 0.0 0.0 -6.5
+		endlist
+    endnode
+doneanim opened1 sfb_door11
+#NWmax ANIM ASCII
+newanim trans sfb_door11
+  length 0.0333333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.25 
+            0.0333333 0.25 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+    endnode
+doneanim trans sfb_door11
+#NWmax ANIM ASCII
+newanim damage sfb_door11
+  length 0.666667
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.666667 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.666667 0.25 
+        endlist
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.666667 12 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+        alphakey
+            0.0 1.0 
+            0.666667 0.0 
+        endlist
+    endnode
+doneanim damage sfb_door11
+#NWmax ANIM ASCII
+newanim die sfb_door11
+  length 0.0333333
+  transtime 0.0
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+		positionkey
+		    0.0 0.0 0.0 -6.5
+			0.0333333 0.0 0.0 -6.5
+		endlist
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+		positionkey
+		    0.0 0.0 0.0 -6.5
+			0.0333333 0.0 0.0 -6.5
+		endlist
+    endnode
+doneanim die sfb_door11
+#NWmax ANIM ASCII
+newanim dead sfb_door11
+  length 0.0333333
+  transtime 0.25
+  animroot sfb_door11
+    node dummy sfb_door11
+        parent NULL
+    endnode
+    node trimesh sam
+        parent sfb_door11
+        alphakey
+            0.0 0.0 
+            0.0333333 0.0 
+        endlist
+    endnode
+    node trimesh Box01
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning
+        parent sfb_door11
+        birthratekey
+            0.0 5 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef01
+        parent ground_lightning
+    endnode
+    node dummy sfb_door11head
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11hhit
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11impc
+        parent sfb_door11
+    endnode
+    node dummy sfb_door11grnd
+        parent sfb_door11
+    endnode
+    node emitter ground_lightning01
+        parent sfb_door11
+        birthratekey
+            0.0 5 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef02
+        parent ground_lightning01
+    endnode
+    node emitter ground_lightning02
+        parent sfb_door11
+        birthratekey
+            0.0 5 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef03
+        parent ground_lightning02
+    endnode
+    node dummy sfb_door11_DWK
+        parent sfb_door11
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node dummy 11_DWK_dp_closed_02
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_closed
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open1_01
+        parent sfb_door11_DWK
+    endnode
+    node trimesh 11_DWK_wg_open2_01
+        parent sfb_door11_DWK
+    endnode
+    node emitter ground_lightning03
+        parent sfb_door11
+        birthratekey
+            0.0 5 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef04
+        parent ground_lightning03
+    endnode
+    node emitter ground_lightning04
+        parent sfb_door11
+        birthratekey
+            0.0 5 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef05
+        parent ground_lightning04
+    endnode
+    node emitter ground_lightning05
+        parent sfb_door11
+        birthratekey
+            0.0 5 
+            0.0333333 0 
+        endlist
+    endnode
+    node reference OmenRef06
+        parent ground_lightning05
+    endnode
+    node trimesh Box02
+        parent sfb_door11
+    endnode
+doneanim dead sfb_door11
+donemodel sfb_door11
