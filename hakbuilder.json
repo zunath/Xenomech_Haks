@@ -28,11 +28,6 @@
       "CompileModels": false
     },
     {
-      "Name":  "xm_gears",
-      "Path": "./xm_gears/",
-      "CompileModels": false
-    },
-    {
       "Name":  "xm_gui",
       "Path": "./xm_gui/",
       "CompileModels": false
@@ -45,6 +40,11 @@
     {
       "Name":  "xm_loadscreens",
       "Path": "./xm_loadscreens/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_mechs",
+      "Path": "./xm_mechs/",
       "CompileModels": false
     },
     {
