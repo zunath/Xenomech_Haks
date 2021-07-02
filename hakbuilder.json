@@ -48,6 +48,11 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_music",
+      "Path": "./xm_music/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_portraits",
       "Path": "./xm_portraits/",
       "CompileModels": false
