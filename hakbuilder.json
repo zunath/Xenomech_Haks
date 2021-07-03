@@ -8,6 +8,11 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_bp_placeables",
+      "Path": "./xm_bp_placeables/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_categories",
       "Path": "./xm_categories/",
       "CompileModels": false
@@ -50,6 +55,11 @@
     {
       "Name":  "xm_music",
       "Path": "./xm_music/",
+      "CompileModels": false
+    },
+    {
+      "Name":  "xm_placeables",
+      "Path": "./xm_placeables/",
       "CompileModels": false
     },
     {
