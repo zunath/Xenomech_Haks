@@ -68,6 +68,11 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_ts_d20mm",
+      "Path": "./xm_ts_d20mm/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_ts_scifibase",
       "Path": "./xm_ts_scifibase/",
       "CompileModels": false
