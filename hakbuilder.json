@@ -38,6 +38,11 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_icons",
+      "Path": "./xm_icons/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_items",
       "Path": "./xm_items/",
       "CompileModels": false
