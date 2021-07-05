@@ -28,12 +28,9 @@ node trimesh body
   alpha 1.0
   transparencyhint 0
   selfIllumColor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
   Diffuse 1.0 1.0 1.0 
   Specular 0.0 0.0 0.0 
-  center -1.52588e-005 23.3678 76.1723 
-  ambient 0.588235 0.588235 0.588235 
-  diffuse 0.588235 0.588235 0.588235 
-  specular 0.0 0.0 0.0 
   shininess 10.0
   bitmap pmz0_chest003
   verts 461
