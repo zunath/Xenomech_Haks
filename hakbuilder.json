@@ -8,6 +8,11 @@
       "CompileModels": false
     },
     {
+      "Name":  "xm_animations",
+      "Path": "./xm_animations/",
+      "CompileModels": false
+    },
+    {
       "Name":  "xm_bp_placeables",
       "Path": "./xm_bp_placeables/",
       "CompileModels": false
